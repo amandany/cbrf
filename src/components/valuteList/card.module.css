@@ -1,0 +1,33 @@
+.card {
+    min-width: 300px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    width: 500px;
+    max-width: 600px;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.card p {
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+.card div {
+    display: flex;
+    justify-content: space-between;
+
+}
+.card div h1 {
+    font-size: 25px;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+.card div h2 {
+    font-size: 25px;
+    white-space: nowrap;
+}

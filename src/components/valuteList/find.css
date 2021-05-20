@@ -1,0 +1,8 @@
+.findBox {
+    margin-top: 10px;
+    background-color: #4891FF;
+    border: 3px solid black;
+    border-radius: 10px;
+    min-width: 300px;
+    padding-bottom: 20px;
+}
