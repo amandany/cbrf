@@ -16,3 +16,23 @@
     margin-left: 10px;
     height: 40px;
 }
+
+@media screen and (max-width: 620px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container button {
+        height: 40px;
+        margin: 0;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .container input {
+        max-width: 500px;
+        height: 40px;
+        margin: 10px 0;
+    }
+}

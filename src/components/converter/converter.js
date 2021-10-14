@@ -80,7 +80,6 @@ const Converter = ({loading, getData, converter, currencyData, changeConverter, 
             </div>
         )
     }
-
 }
 
 const mapStateToProps = ({search, loading, converter, currencyData}) => {

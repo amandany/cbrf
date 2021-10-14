@@ -1,5 +1,4 @@
 .card {
-    min-width: 300px;
     border: 2px solid lightgray;
     border-radius: 10px;
     padding: 10px 20px;
@@ -17,17 +16,37 @@
     font-size: 15px;
     font-weight: bold;
 }
+
 .card div {
     display: flex;
     justify-content: space-between;
-
 }
+
 .card div h1 {
     font-size: 25px;
     white-space: nowrap;
     margin-right: 20px;
 }
+
 .card div h2 {
     font-size: 25px;
     white-space: nowrap;
+}
+
+@media screen and (max-width: 620px) {
+    .card{
+        margin: 0 5px;
+        padding: 10px 10px;
+    }
+    .card div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center
+    }
+    .card div h1, .card div h2  {
+        font-size: 20px;
+        margin: 0;
+    }
+
 }

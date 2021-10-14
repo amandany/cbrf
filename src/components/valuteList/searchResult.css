@@ -1,6 +1,10 @@
 .listValute {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     list-style: none;
+    grid-gap: 10px;
 }
+

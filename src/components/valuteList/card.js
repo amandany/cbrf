@@ -7,7 +7,7 @@ const Card = (props) => {
     const difference = (Value - Previous).toFixed(4);
     const changingValute = (Nominal / Value).toFixed(4);
     return (
-        <div className={styles.card}>
+        <li className={styles.card}>
             <p> {Name} </p>
             <div>
                 {
@@ -22,7 +22,7 @@ const Card = (props) => {
                     <h2 style={{color: "red"}}> ▼ {difference} </h2>
                 }
             </div>
-        </div>
+        </li>
     )
 }
 
